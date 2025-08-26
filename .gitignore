@@ -1,0 +1,8 @@
+.azure
+node_modules
+
+# Build outputs
+.next/
+out/
+build/
+dist/
