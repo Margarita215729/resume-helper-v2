@@ -9,6 +9,30 @@ A modern, full-stack web application that creates personalized resumes and cover
 ![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-blue?style=flat-square&logo=tailwindcss)
 
+## 🎬 Live Demo
+
+> **🚀 [Try Live Demo](https://resume-helper-v2.vercel.app)** - Experience AI-powered resume generation
+
+### 📱 Application Workflow
+
+<div align="center">
+  <img src="screenshots/questionnaire.png" alt="Smart Questionnaire" width="24%" />
+  <img src="screenshots/ai-generation.png" alt="AI Processing" width="24%" />
+  <img src="screenshots/preview.png" alt="Resume Preview" width="24%" />
+  <img src="screenshots/export.png" alt="PDF Export" width="24%" />
+</div>
+
+*Complete workflow from questionnaire to professional PDF export*
+
+### 🎯 Key Workflow Steps
+
+1. **📋 Smart Questionnaire** - Answer 27+ targeted questions about your experience
+2. **🤖 AI Generation** - GitHub Models API creates tailored resume content
+3. **👀 Live Preview** - Real-time preview with multiple professional templates
+4. **📄 PDF Export** - Download ATS-optimized resume ready for applications
+
+[![Demo Video](https://img.shields.io/badge/Watch%20Demo-▶️%20Video-red?style=for-the-badge)](https://github.com/Margarita215729/resume-helper-v2/blob/main/demo/workflow.gif)
+
 ## ✨ Features
 
 ### 🧠 AI-Powered Generation
