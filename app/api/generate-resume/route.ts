@@ -1,4 +1,4 @@
-import { aiService } from '@/lib/ai-service'
+import { simpleAIService } from '@/lib/simple-ai-service'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(request: NextRequest) {
@@ -20,16 +20,16 @@ export async function POST(request: NextRequest) {
         }
 
         // Analyze job posting
-        const jobAnalysis = await aiService.analyzeJobPosting(jobPostingText)
+        const jobAnalysis = await simpleAIService.analyzeJobPosting(jobPostingText)
 
         // Generate tailored resume
-        const tailoredResume = await aiService.generateTailoredResume(
+        const tailoredResume = await simpleAIService.generateTailoredResume(
             jobAnalysis,
             userProfile
         )
 
         // Generate cover letter
-        const coverLetter = await aiService.generateCoverLetter(
+        const coverLetter = await simpleAIService.generateCoverLetter(
             jobAnalysis,
             userProfile
         )

@@ -279,7 +279,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/Gret/Desktop/resume-helper-github/src/generated/prisma",
+      "value": "/Users/Gret/Desktop/TypeScript_Advanced_App/repos/resume-helper-v2/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -293,7 +293,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/Gret/Desktop/resume-helper-github/prisma/schema.prisma",
+    "sourceFilePath": "/Users/Gret/Desktop/TypeScript_Advanced_App/repos/resume-helper-v2/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
